@@ -10,6 +10,8 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Witaj Świecie !");
+            Console.WriteLine("Witaj Świecie !");
         }
     }
 }
