@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using System;
 
 namespace FirstApp
 {
@@ -10,8 +8,14 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Witaj Świecie !");
-            Console.WriteLine("Witaj Świecie !");
+            string name = args[0];
+            Console.WriteLine("Witaj " + name);
+
+            //foreach (var item in args)
+            //{
+            //    Console.WriteLine("Witaj " + item);
+
+            //}
         }
     }
 }
